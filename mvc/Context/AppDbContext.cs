@@ -10,7 +10,7 @@ public class AppDbContext : DbContext
         
     }
 
-    public DbSet<TipoOcorrencia> TipoOcorrencia { get; set; }
+    public DbSet<TipoOcorrencia> TiposOcorrencias { get; set; }
     public DbSet<Denuncia> Denuncia { get; set; }
     
 }
