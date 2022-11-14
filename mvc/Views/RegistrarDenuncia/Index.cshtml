@@ -1,0 +1,67 @@
+@{
+    ViewData["Title"] = "Cadastrar Denuncia";
+}
+
+<div class="main-home">
+    <div class="area-title">
+        <p>Preencha os dados referentes à denuncia:</p>
+    </div>
+    <div class="area-form-cadastrar-denuncia">
+        <div class="textField-cadastrar-denuncia">
+            <label class="font-escurinha">Data</label>
+            <input type="date" >
+        </div>
+        <div class="textField-cadastrar-denuncia">
+            <label class="font-escurinha">Horário</label>
+            <input type="time" >
+        </div>
+        <div class="textField-cadastrar-denuncia">
+            <label class="font-escurinha">Endereço/Localização</label>
+            <input type="text" >
+        </div>
+        <div class="textField-cadastrar-denuncia">
+            <label class="font-escurinha">Ponto de Referência</label>
+            <input type="text" >
+        </div>
+        <div class="textField-cadastrar-denuncia-radio">
+            <p class="font-escurinha">Tipo de Ocorrência</p>
+
+            <div class="area-radio">
+                <div class="cada-radio">
+                    <input type="radio" id="poluicaoSonora" name="tipoOcorrencia" value="Poluição sonora" >
+                    <label>Poluição sonora</label>
+                </div>
+
+                <div class="cada-radio">
+                    <input type="radio" id="lancamentoDeEfluentes" name="tipoOcorrencia" value="Lançamento de efluentes/esgoto" >
+                    <label>Lançamento de efluentes/esgoto</label>
+                </div>
+
+                <div class="cada-radio">
+                    <input type="radio" id="podaIrregular" name="tipoOcorrencia" value="Poda irregular das árvores" >
+                    <label>Poda irregular das árvores</label>
+                </div>
+
+                <div class='cada-radio'>
+                    <input type="radio" id="outros" name="tipoOcorrencia" value="Outros" >
+                    <label>Outros</label>
+                </div>
+            </div>
+        </div>
+        <div class="textField-cadastrar-denuncia-textarea">
+            <label class="font-escurinha" for="descrever-denuncia">Descreva a ocorrência</label>
+            <textarea id="descrever-denuncia" name="descrever-denuncia" rows="4" cols="50">
+
+            </textarea>
+        </div>
+        <div class="textField-cadastrar-denuncia-upload">
+            <label class="font-escurinha">Anexar foto ou vídeo</label>
+            <input type="file">
+        </div>
+    </div>
+    <div class="area-btn-auxiliar-tela-cadastrar-denuncia">
+        <a href="#" class="btn-opcao-auxiliar">Voltar</a>
+        <a href="#" class="btn-opcao-auxiliar">Registrar</a>
+        <a href="#" class="btn-opcao-auxiliar">Sair</a>
+    </div>
+</div>

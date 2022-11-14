@@ -14,7 +14,7 @@
 
 .main-home {
   width: 50%;
-  height: 500px;
+  height: 600px;
   background-color: #e2e2e2;
   border-radius: 7.5px;
   box-shadow: 2px 10px 20px 1px rgba(0, 0, 0, 0.2);
@@ -77,6 +77,113 @@
 }
 
 .btn-opcao-auxiliar:hover {
+  color: #000;
+  background-color: #b6b6b6;
+}
+
+.area-form-cadastrar-denuncia {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.textField-cadastrar-denuncia {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2%;
+}
+
+.textField-cadastrar-denuncia input {
+  width: 60%;
+}
+
+.textField-cadastrar-denuncia-radio {
+  width: 70%;
+}
+
+.area-radio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.textField-cadastrar-denuncia-textarea {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+}
+
+.textField-cadastrar-denuncia-upload {
+  margin-top: 4%;
+}
+
+.font-escurinha {
+  font-weight: 600;
+}
+
+.area-btn-auxiliar-tela-cadastrar-denuncia {
+  width: 85%;
+  margin: 2% auto 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+}
+
+.titulo-sucess {
+  color: rgb(52, 21, 228);
+  font-weight: 600;
+  margin-bottom: 5%;
+}
+
+.main-interno-sucess {
+  width: 85%;
+  height: 85%;
+}
+
+.main-home-sucess {
+  width: 50%;
+  height: 600px;
+  background-color: #e2e2e2;
+  border-radius: 7.5px;
+  box-shadow: 2px 10px 20px 1px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.area-imprimir {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 5%;
+}
+
+.main-interno-sucess {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  font-size: 1.2rem;
+}
+
+.btn-opcao-auxiliar-sucess {
+  width: 30%;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  text-decoration: none;
+  background-color: #c2c2c2;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: #000;
+  margin-left: 5%;
+}
+
+.btn-opcao-auxiliar-sucess:hover {
   color: #000;
   background-color: #b6b6b6;
 }
