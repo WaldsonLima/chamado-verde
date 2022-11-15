@@ -1,0 +1,44 @@
+@using mvc.ViewModels
+@model LoginViewModel
+
+@{
+    ViewData["Title"] = "Cadastrar-se";
+}
+
+<div class="main-home">
+    <div class="dados-usuario">
+        <p>Para realizar o seu cadastro, preencha os campos abaixo:</p>
+        <div class="textField-cadastrar-denuncia">
+            <label class="font-escurinha">Nome completo:</label>
+            <input type="text" >
+        </div>
+        <div class="textField-cadastrar-denuncia">
+            <label class="font-escurinha">CPF</label>
+            <input type="text" >
+        </div>
+        <div class="textField-cadastrar-denuncia">
+            <label class="font-escurinha">Endereço/Localização</label>
+            <input type="text" >
+        </div>
+    </div>
+    <div class="credencias-usuairo">
+        <form class="form-login" asp-controller="Account" asp-action="Register" method="post">
+            <div class="textField-login">
+                <label asp-for="UserName" class="font-escurinha">Usuário:</label>
+                <input asp-for="UserName" type="text" >
+                
+            </div>
+            <span asp-validation-for="UserName" class="text-danger" ></span>
+            <div class="textField-login">
+                <label asp-for="Password" class="font-escurinha">Senha:</label>
+                <input asp-for="Password" type="password" >
+                
+            </div>
+            <span asp-validation-for="Password" class="text-danger" ></span>
+            <input class="btn-opcao-auxiliar" type="submit" value="Cadastrar">
+        </form>
+    </div>
+    <div class="area-btn-auxiliar-tela-cadastrar-denuncia">
+        <a asp-controller="Home" asp-action="Index" class="btn-opcao-auxiliar">Voltar</a>
+    </div>
+</div>

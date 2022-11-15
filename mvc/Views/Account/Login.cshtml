@@ -1,0 +1,45 @@
+@using mvc.ViewModels
+@model LoginViewModel
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="main-home">
+    <div class="first-login">
+        <p>Olá, seja bem-vindo(a)!</p>
+        <p>Este é um aplicativo para auxiliar a fiscalização e proteção ambiental. <br> Aqui, você poderá registrar, de maneira rápida e segura, denúncias de crimes ambientais.</p>
+    </div>
+    <hr>
+    <div class="second-login">
+        <p>Realizar login</p>
+        <form class="form-login" asp-controller="Account" asp-action="Login" method="post">
+            <div class="textField-login">
+                <label asp-for="UserName" class="font-escurinha">Usuário:</label>
+                <input asp-for="UserName" type="text" >
+                
+            </div>
+            <span asp-validation-for="UserName" class="text-danger" ></span>
+            <div class="textField-login">
+                <label asp-for="Password" class="font-escurinha">Senha:</label>
+                <input asp-for="Password" type="password" >
+                
+            </div>
+            <span asp-validation-for="Password" class="text-danger" ></span>
+            <input class="btn-opcao-auxiliar" type="submit" value="Acessar">
+        </form>
+        <div class="area-botoes-login">
+            <div class="botao-cadastrar-login">
+                <p class="font-menor">Não possui login? Clique aqui para cadastrar.</p>
+                <a asp-controller="Account" asp-action="Register" class="btn-opcao-auxiliar-cadastrar-login">Cadastrar</a>
+            </div>
+            <div class="botao-user-anonimo">
+                <p class="font-menor">Não quer se identificar? CLique aqui.</p>
+                <a asp-controller="Home" asp-action="Index" class="btn-opcao-auxiliar-usuario-anonimo">Usuário anônimo</a>
+            </div>
+        </div>
+    </div>
+    <div class="area-btn-auxiliar-tela-cadastrar-denuncia" style="margin-top: 5%;">
+        <a asp-controller="Home" asp-action="Index" class="btn-opcao-auxiliar">Voltar</a>
+    </div>
+</div>

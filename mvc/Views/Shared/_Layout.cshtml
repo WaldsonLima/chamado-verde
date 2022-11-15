@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="~/mvc.styles.css" asp-append-version="true" />
 </head>
 <body>
+    <header style="background-color: #000; height: max-content; padding: 1%;">
+        <div class="div-login">
+            @await Html.PartialAsync("_LoginPartial")
+        </div>
+    </header>
     <main role="main" class="main">
         @RenderBody()
     </main>

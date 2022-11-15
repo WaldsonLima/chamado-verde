@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+.layout-header {
+  width: 100vw;
+  height: 10vh;
+  background-color: #000;
+}
+
 .main {
   width: 100vw;
   height: 100vh;
@@ -18,6 +24,7 @@
   background-color: #e2e2e2;
   border-radius: 7.5px;
   box-shadow: 2px 10px 20px 1px rgba(0, 0, 0, 0.2);
+  position: relative;
 }
 
 .area-title {
@@ -74,6 +81,7 @@
   border: 1px solid rgba(0, 0, 0, 0.2);
   color: #000;
   margin-left: 5%;
+  padding: 0 10px;
 }
 
 .btn-opcao-auxiliar:hover {
@@ -152,6 +160,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .area-imprimir {
@@ -186,4 +195,168 @@
 .btn-opcao-auxiliar-sucess:hover {
   color: #000;
   background-color: #b6b6b6;
+}
+
+.first-login {
+  width: 85%;
+  margin: 5% auto 0 auto;
+}
+
+.main-home hr {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.second-login {
+  width: 85%;
+  margin: 2.5% auto;
+}
+
+.textField-login {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2%;
+}
+
+.textField-login input {
+  width: 80%;
+}
+
+.form-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.area-botoes-login {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 5%;
+}
+
+.botao-cadastrar-login {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+
+.btn-opcao-auxiliar-cadastrar-login {
+  width: 50%;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  text-decoration: none;
+  background-color: #c2c2c2;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: #000;
+  margin-left: 5%;
+  padding: 0 10px;
+}
+
+.btn-opcao-auxiliar-cadastrar-login:hover {
+  color: #000;
+  background-color: #b6b6b6;
+}
+
+.botao-user-anonimo {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+
+.btn-opcao-auxiliar-usuario-anonimo {
+  width: 80%;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  text-decoration: none;
+  background-color: #c2c2c2;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: #000;
+  margin-left: 5%;
+  padding: 0 10px;
+}
+
+.btn-opcao-auxiliar-usuario-anonimo:hover {
+  color: #000;
+  background-color: #b6b6b6;
+}
+
+.font-menor {
+  font-size: 0.9rem;
+  margin: 2% 0;
+}
+
+.btn-opcao-auxiliar-sair-login {
+  width: 20%;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  text-decoration: none;
+  background-color: #c2c2c2;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: #000;
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  padding: 0 10px;
+}
+
+.btn-opcao-auxiliar-sair-login:hover {
+  color: #000;
+  background-color: #b6b6b6;
+}
+
+.sair-logout {
+  width: 10%;
+}
+
+.nome-user {
+  color: #fff;
+}
+
+.div-btn-cep {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.div-btn-cep input {
+  width: 80%;
+}
+
+.btn-voltar-sucess {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+}
+
+.dados-usuario {
+  width: 85%;
+  margin: 5% auto;
+}
+
+.credencias-usuairo {
+  width: 85%;
+  margin: 5% auto;
+}
+
+.btn-cep {
+  border: none;
+  background-color: transparent;
+}
+
+.btn-cep:hover {
+  color: rgb(0, 27, 150);
 }

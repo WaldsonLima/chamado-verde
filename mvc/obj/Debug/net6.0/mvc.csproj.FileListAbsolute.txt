@@ -132,3 +132,8 @@ C:\Users\walds\Desktop\chamado-verde\mvc\obj\Debug\net6.0\scopedcss\projectbundl
 C:\Users\walds\Desktop\chamado-verde\mvc\obj\Debug\net6.0\mvc.csproj.CopyComplete
 C:\Users\walds\Desktop\chamado-verde\mvc\obj\Debug\net6.0\mvc.genruntimeconfig.cache
 C:\Users\walds\Desktop\chamado-verde\mvc\obj\Debug\net6.0\ref\mvc.dll
+C:\Users\walds\Desktop\chamado-verde\mvc\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\walds\Desktop\chamado-verde\mvc\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\walds\Desktop\chamado-verde\mvc\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\walds\Desktop\chamado-verde\mvc\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\walds\Desktop\chamado-verde\mvc\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
